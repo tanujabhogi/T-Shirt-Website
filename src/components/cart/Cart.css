@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 60%;
+    margin: auto;
+}
+.cart_box img{
+    width: 50px;
+    height: 50px;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span{
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button-32 {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border-radius: 100px;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-32:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  
+}
+  
+  .button-32:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+ 
+    transform: scale(1.05) rotate(-1deg);}
+  
+
+
+
+  /* CSS */
+.button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .button-65 {
+    
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    
+    
+  }
+
+  @media screen and (max-width: 570px) {
+    .to1 {
+        font-size: medium;
+        font-weight: bold;
+        
+    }
+}
+@media screen and (min-width: 571px) {
+  .to1 {
+      font-size: larger;
+      font-weight: bold;
+      
+  }
+}
+

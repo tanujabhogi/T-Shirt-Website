@@ -94,7 +94,7 @@ const Cart = () => {
       ))}
       <div className="total mt-2">
         <span className=" to1">Total Price of your Cart : </span>
-        <span className="text-dark button-63 text-white h-25 fw-bolder p-2">Rs - {price}</span>
+        <span className="text-dark button-63 text-white h-25 fw-bolder p-2">Rs. {price}</span>
       </div>
     </article>
   );
